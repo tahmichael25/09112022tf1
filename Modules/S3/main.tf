@@ -1,7 +1,6 @@
-resource "aws_instance" "webserver1" {
-  ami = var.ami_id
-  instance_type = var.instance_type
+resource "aws_s3_bucket" "b" {
+  bucket = var.bucket
   tags = {
-    Name = var.Name
+    Name        = var.s3_bucket_tagname
   }
 }

@@ -1,3 +1,2 @@
-variable "ami_id" {}
-variable "instance_type" {}
-variable "Name" {}
+variable "bucket" {}
+variable "s3_bucket_tagname" {}

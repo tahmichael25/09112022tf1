@@ -1,3 +1,3 @@
-output "instance_ip" {
-  value = aws_instance.webserver1.public_ip
+output "s3bucketname" {
+  value = aws_s3_bucket.b.arn
 }
